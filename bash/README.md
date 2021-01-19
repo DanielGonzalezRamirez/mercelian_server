@@ -1,3 +1,4 @@
+# Useful info for bash files
 Remember to make your bash files executable with:
 chmod +ax bash_file.sh
 
