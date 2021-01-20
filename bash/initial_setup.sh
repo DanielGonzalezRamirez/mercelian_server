@@ -4,9 +4,15 @@
 apt update
 apt upgrade
 
-# Install nginx server, certbot for SSL and rsync for loading files
+# Install nginx server and rsync for loading files
 apt install nginx
-apt install python3-certbot-nginx
-apt install rsync
+apt install rsyn
+
+# Install certbot
+snap install core
+snap refresh core
+
+snap install --classic certbot
+ln -s /snap/bin/certbot /usr/bin/certbot
 
 # After initial setup, next step is to setup web page and email server
