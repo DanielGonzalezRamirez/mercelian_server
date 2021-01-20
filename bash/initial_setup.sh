@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Be sure that this file is run as root
 # Update and upgrade machine
 apt update
 apt upgrade
